@@ -1,0 +1,14 @@
+{
+  "name": "Movara",
+  "market": "Kenya",
+  "description": "A freight marketplace connecting customers and independent truck owners.",
+  "colors": {
+    "background": "#FFFFFF",
+    "text": "#111111",
+    "muted": "#666666",
+    "accent": "#FF5A36",
+    "surface": "#F5F5F2",
+    "dark": "#141414",
+    "border": "#E5E5E5"
+  }
+}

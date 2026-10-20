@@ -1,0 +1,630 @@
+# ADDENDUM TO MASTER FREIGHT MARKETPLACE BUILD PROMPT
+
+## Premium Visual Identity, Cinematic 3D Website and Advanced Animation System
+
+You are continuing development of the Kenyan Digital Freight Marketplace specified in the existing master implementation prompt\.
+
+All previously agreed functional requirements remain unchanged\.
+
+This addendum establishes the visual direction, interactive design standards, animation architecture, imagery strategy, and performance requirements\.
+
+### 1\. DESIGN OBJECTIVE
+
+Create an exceptionally polished, premium, modern logistics website inspired by the seven attached design\-reference screenshots\.
+
+Study all seven images carefully before implementing the frontend\.
+
+The target experience combines:
+
+- Swiss\-inspired editorial graphic design\.
+- Oversized expressive typography\.
+- Clean white backgrounds\.
+- Bold black headlines\.
+- Energetic orange accents\.
+- Photorealistic logistics imagery\.
+- Selective interactive 3D objects\.
+- Scroll\-linked storytelling\.
+- Sophisticated card transitions\.
+- Refined hover interactions\.
+- Excellent responsive design\.
+
+The visual experience should feel like a professionally art\-directed logistics brand rather than a generic SaaS template\.
+
+Do not copy the original brands, logos, copyrighted artwork, exact page compositions, or proprietary source code from the references\.
+
+Develop an original identity inspired by their design principles\.
+
+The business is initially a freight marketplace connecting customers and independent truck owners\. Do not imply that the company already owns a large fleet, container terminal, warehouses, or international logistics infrastructure\.
+
+### 2\. REFERENCE IMAGE INTERPRETATION
+
+Analyze the attached screenshots and map them to the following design concepts\.
+
+REFERENCE 1 — HERO COMPOSITION
+
+Characteristics:
+
+- White background\.
+- Oversized black typography\.
+- Minimal navigation\.
+- Large photorealistic suspended logistics object\.
+- Strong spatial depth\.
+- Carefully positioned shadows\.
+- Orange graphic accents\.
+- Small editorial annotations\.
+- Prominent CTA\.
+- Asymmetric but balanced layout\.
+
+Recreate this visual language using an original 3D medium\-duty box lorry rather than the shipping container\.
+
+REFERENCE 2 — 3D PRODUCT STORYTELLING
+
+Characteristics:
+
+- Large central 3D logistics object\.
+- Small annotations connected to object features\.
+- Floating or suspended presentation\.
+- Strong contrast between large object and minimal supporting text\.
+
+Use the vehicle to communicate:
+
+- Verified carriers\.
+- Return\-load matching\.
+- Shipment tracking\.
+- Flexible booking\.
+- Reliable coordination\.
+
+The annotations must be accurate descriptions of actual platform capabilities\.
+
+REFERENCE 3 — SERVICE STORYTELLING
+
+Characteristics:
+
+- Full\-width logistics photography\.
+- Strong orange information panel\.
+- Numbered content\.
+- High contrast\.
+- Vertical progress indicator\.
+- Editorial layout\.
+
+REFERENCE 4 — STACKED INTERACTIVE PANELS
+
+Characteristics:
+
+- Multiple translucent orange cards\.
+- Layered spatial arrangement\.
+- Scroll\-linked card transitions\.
+- Active\-section progress markers\.
+
+Create a sequence of four interactive panels:
+
+01 — Post Your Cargo
+02 — Find the Right Truck
+03 — Book and Track
+04 — Confirm Delivery
+
+Each panel must contain meaningful product information\.
+
+REFERENCE 5 — EDITORIAL SERVICES LIST
+
+Characteristics:
+
+- Large heading\.
+- Generous whitespace\.
+- Thin horizontal dividers\.
+- Compact category labels\.
+- Interactive service rows\.
+- Photography associated with selected items\.
+
+Use this pattern for:
+
+- Return Loads\.
+- Dedicated Transport\.
+- Scheduled Routes\.
+- Shipment Tracking\.
+- Business Freight Solutions\.
+
+REFERENCE 6 — BOLD LOGISTICS BRANDING
+
+Characteristics:
+
+- Oversized typography\.
+- Bright industrial orange imagery\.
+- Strong brand presence\.
+- Minimal overlays\.
+- Large call\-to\-action\.
+
+Adapt this into a distinctive section communicating the company’s mission to reduce empty truck journeys\.
+
+REFERENCE 7 — MOBILE CINEMATIC PRESENTATION
+
+Characteristics:
+
+- Immersive transport photography\.
+- High\-contrast typography\.
+- Minimal mobile navigation\.
+- Clear call to action\.
+- Strong vertical composition\.
+
+Use this as inspiration for mobile\-responsive landing sections\.
+
+Do not reproduce the presentation’s floating\-phone mockup as the actual application interface\.
+
+### 3\. VISUAL DESIGN SYSTEM
+
+Suggested starting palette:
+
+Background: \#FFFFFF
+Primary text: \#111111
+Secondary text: \#666666
+Accent orange: \#FF5A36
+Subtle background: \#F5F5F2
+Dark section background: \#141414
+Borders: \#E5E5E5
+
+Treat these as design tokens that can be refined during visual testing\.
+
+Typography:
+
+- Use a high\-quality, properly licensed sans\-serif family\.
+- Prefer a bold, contemporary grotesk for large headlines\.
+- Use a highly readable UI font for forms and dashboards\.
+- Establish consistent type scales and responsive fluid typography\.
+- Avoid excessive decorative fonts\.
+
+Visual characteristics:
+
+- Large desktop headlines\.
+- Generous whitespace\.
+- Controlled asymmetry\.
+- Clear content hierarchy\.
+- Thin editorial separators\.
+- Restrained use of rounded corners\.
+- Clean icons\.
+- High\-quality images\.
+- Consistent component spacing\.
+
+Do not use generic gradient\-heavy SaaS aesthetics\.
+
+### 4\. PRIMARY 3D HERO ASSET
+
+Use a photorealistic medium\-duty box lorry suitable for regional freight transport in Kenya\.
+
+The model should resemble a practical commercial vehicle category, without unauthorized manufacturer branding\.
+
+Preferred characteristics:
+
+- White or neutral vehicle body\.
+- Subtle orange branding accents\.
+- Realistic tires and body proportions\.
+- Appropriate lighting and material properties\.
+- Clean commercial presentation\.
+- Optimized geometry and textures\.
+- Strong silhouette\.
+
+The 3D object should be original, properly licensed, or created from legally usable assets\.
+
+Do not scrape proprietary models or copy another company’s 3D artwork\.
+
+The truck should visually communicate a real freight marketplace rather than a luxury concept vehicle\.
+
+### 5\. HERO ANIMATION SEQUENCE
+
+Create a carefully choreographed desktop hero sequence\.
+
+Initial state:
+
+- White background\.
+- Navigation visible\.
+- Main headline revealed in stages\.
+- Large 3D lorry entering the scene\.
+- Primary CTA immediately accessible\.
+
+Suggested headline:
+
+“THE SMARTER WAY TO MOVE FREIGHT\.”
+
+Supporting copy:
+
+“Find verified trucks, match return journeys, and manage deliveries across Kenya\.”
+
+Primary CTA:
+
+“Find a Truck”
+
+Secondary CTA:
+
+“List Your Vehicle”
+
+Animation:
+
+1. Text reveals smoothly\.
+2. The 3D lorry enters with a controlled translation and rotation\.
+3. The object settles naturally\.
+4. Lighting and shadow reinforce depth\.
+5. Small annotations appear\.
+6. Scroll movement transitions the object toward the next section\.
+
+Avoid excessive bouncing, constant spinning, or unnecessary looping\.
+
+The hero must remain readable and usable before animation finishes\.
+
+### 6\. SCROLL\-DRIVEN 3D STORYTELLING
+
+Use GSAP ScrollTrigger for carefully selected pinned and scroll\-linked sequences\.
+
+The main truck should transition through a short narrative:
+
+Scene A:
+Truck becomes visible\.
+
+Scene B:
+The platform explains return\-load matching\.
+
+Scene C:
+A route visualization appears\.
+
+Scene D:
+The truck transitions toward the service overview\.
+
+Implement smooth progress\-linked movement\.
+
+Avoid excessively long pinned sequences that prevent users from reaching the booking interface\.
+
+The scroll animation must be reversible when scrolling upward\.
+
+Implement responsive animation configurations\.
+
+### 7\. ANIMATED RETURN\-LOAD EXPLANATION
+
+Create an interactive route story using Nairobi, Nakuru, and Eldoret\.
+
+Show:
+
+- A truck completes a delivery\.
+- It has an empty return journey\.
+- A customer posts compatible cargo\.
+- The platform identifies a route match\.
+- The truck accepts the shipment\.
+- The return trip becomes revenue\-generating\.
+
+Use an animated route line, location markers, and contextual information panels\.
+
+Do not use fake real\-time vehicle locations\.
+
+Clearly label demonstration routes and simulated examples\.
+
+The animation should teach the business concept, not merely decorate the page\.
+
+### 8\. STACKED CARD ANIMATION
+
+Create four layered orange cards inspired by the supplied screenshots\.
+
+Cards:
+
+01 — Post Your Cargo
+02 — Match With a Truck
+03 — Book and Track
+04 — Complete Delivery
+
+Use GSAP to animate the cards as the user scrolls\.
+
+Possible effects:
+
+- Cards entering from different vertical positions\.
+- Controlled rotation\.
+- Depth through scale and shadow\.
+- Active card moving forward\.
+- Previous cards receding\.
+- Progress indicator changing state\.
+
+Ensure content remains readable\.
+
+On mobile, simplify to a vertical step\-by\-step presentation if the stacked interaction would interfere with usability\.
+
+### 9\. EDITORIAL SERVICE LIST INTERACTIONS
+
+Create an interactive services section with thin horizontal dividers\.
+
+When the user hovers over or focuses a service:
+
+- Highlight the selected row\.
+- Reveal a relevant image\.
+- Animate a small arrow\.
+- Show a concise description\.
+- Smoothly transition between service imagery\.
+
+Support keyboard focus and touch interaction\.
+
+Do not rely exclusively on hover\.
+
+### 10\. TYPOGRAPHIC ANIMATIONS
+
+Use restrained headline animation:
+
+- Line reveals\.
+- Word stagger\.
+- Clip\-mask reveals\.
+- Subtle opacity transitions\.
+- Short vertical movement\.
+
+Avoid animating every word on every page\.
+
+Maintain semantic HTML and accessible text\.
+
+Do not split important text in ways that make it inaccessible to assistive technology\.
+
+### 11\. PHOTOGRAPHY AND MEDIA
+
+Use high\-quality, legally usable imagery relevant to Kenyan and East African freight\.
+
+Prioritize:
+
+- Medium\-duty commercial trucks\.
+- Pickups transporting goods\.
+- Regional highways\.
+- Warehouses\.
+- Loading operations\.
+- Cargo handling\.
+- Drivers\.
+- Distribution yards\.
+- Agricultural freight\.
+
+Do not imply that stock imagery depicts the company’s own employees or assets\.
+
+Use optimized image formats and responsive sizing\.
+
+Avoid generic luxury shipping imagery unrelated to the initial service\.
+
+Use real photographs where possible and clearly distinguish illustrative 3D artwork\.
+
+### 12\. ANIMATION TECHNOLOGIES
+
+Use:
+
+GSAP \+ ScrollTrigger:
+
+- Pinned storytelling\.
+- Scroll\-linked transitions\.
+- Stacked cards\.
+- Timelines\.
+- Route storytelling\.
+
+Motion for React:
+
+- Interface transitions\.
+- Modal transitions\.
+- Dashboard microinteractions\.
+- Layout animations\.
+- Button feedback\.
+- Loading and success states\.
+
+Three\.js \+ React Three Fiber \+ Drei:
+
+- 3D truck presentation\.
+- Camera and lighting\.
+- Optimized model rendering\.
+- Scene transitions\.
+
+Use CSS transitions for simple effects\.
+
+Avoid overlapping animation systems controlling the same properties\.
+
+Check current stable library APIs and compatibility before implementation\.
+
+### 13\. PERFORMANCE REQUIREMENTS
+
+The website must remain practical on mid\-range Android phones and typical Kenyan mobile connections\.
+
+Requirements:
+
+- Lazy\-load heavy 3D assets\.
+- Use compressed glTF/GLB models\.
+- Optimize textures\.
+- Use adaptive rendering quality\.
+- Pause offscreen animation\.
+- Avoid continuous rendering when unnecessary\.
+- Provide static image fallbacks\.
+- Respect data\-saving preferences where supported\.
+- Avoid excessive video downloads\.
+- Prevent layout shifts\.
+- Avoid blocking initial content on 3D loading\.
+- Measure performance on real devices where possible\.
+
+Target strong Core Web Vitals\.
+
+Use performance budgets and test them\.
+
+Do not sacrifice the booking experience for visual effects\.
+
+### 14\. ACCESSIBILITY AND MOTION PREFERENCES
+
+Respect prefers\-reduced\-motion\.
+
+For reduced\-motion users:
+
+- Remove decorative parallax\.
+- Disable long scroll\-linked transformations\.
+- Use static 3D fallback imagery\.
+- Preserve all content\.
+- Keep navigation functional\.
+- Avoid unnecessary motion\.
+
+Ensure sufficient contrast, accessible forms, keyboard navigation, visible focus states, and readable text\.
+
+### 15\. PUBLIC WEBSITE VS APPLICATION DASHBOARDS
+
+PUBLIC WEBSITE:
+
+Premium cinematic visual identity with carefully selected 3D and scroll storytelling\.
+
+CUSTOMER DASHBOARD:
+
+Clean, functional, readable, and fast\.
+
+CARRIER DASHBOARD:
+
+Information\-dense, operationally efficient, and easy to use\.
+
+DRIVER PORTAL:
+
+Mobile\-first, large touch targets, minimal distractions\.
+
+ADMIN CONSOLE:
+
+Professional, data\-oriented, reliable\.
+
+Do not place heavy 3D scenes inside booking forms, payment screens, live tracking maps, or operations dashboards\.
+
+Use subtle transitions and microinteractions instead\.
+
+### 16\. REQUIRED HOMEPAGE SECTIONS
+
+Build the homepage in this order:
+
+1. Premium navigation\.
+2. Cinematic 3D truck hero\.
+3. Short platform value proposition\.
+4. Animated return\-load matching explanation\.
+5. Interactive four\-step booking process\.
+6. Freight service categories\.
+7. Customer and carrier benefits\.
+8. Vehicle category showcase\.
+9. Trust and verification\.
+10. Shipment tracking demonstration\.
+11. Genuine platform statistics when available\.
+12. Carrier registration CTA\.
+13. Customer booking CTA\.
+14. FAQ\.
+15. Professional footer\.
+
+All calls to action must connect to actual product workflows\.
+
+Do not invent customer testimonials, fleet sizes, completed shipment counts, or performance statistics\.
+
+### 17\. RESPONSIVE DESIGN
+
+Desktop:
+
+- Full cinematic experience\.
+- Advanced scroll storytelling\.
+- Large 3D model\.
+- Editorial layout\.
+
+Tablet:
+
+- Simplified 3D composition\.
+- Reduced pinned sections\.
+- Responsive typography\.
+
+Mobile:
+
+- Optimized hero imagery\.
+- Simplified animation\.
+- Clear navigation\.
+- Fast access to search and booking\.
+- Accessible touch controls\.
+- No horizontal overflow\.
+- No excessive scroll trapping\.
+
+The mobile version must be intentionally designed, not merely a compressed desktop layout\.
+
+### 18\. ANIMATION QUALITY CONTROL
+
+Every major animation must be tested for:
+
+- Smoothness\.
+- Responsiveness\.
+- Scroll reversibility\.
+- Proper cleanup\.
+- Resize behavior\.
+- Reduced\-motion behavior\.
+- Mobile performance\.
+- Loading failure\.
+- Keyboard accessibility\.
+- Content visibility without JavaScript\-enhanced animation\.
+
+Prevent animation memory leaks and duplicated ScrollTrigger instances\.
+
+Do not let animation break navigation or booking workflows\.
+
+### 19\. IMPLEMENTATION SEQUENCE
+
+First:
+
+- Inspect all attached reference images\.
+- Create a visual analysis document\.
+- Establish design tokens\.
+- Build reusable components\.
+- Develop the homepage layout\.
+
+Second:
+
+- Implement the optimized 3D truck scene\.
+- Implement the hero sequence\.
+- Add scroll storytelling\.
+- Add stacked cards and interactive service lists\.
+
+Third:
+
+- Apply the design system to public pages\.
+- Apply restrained styling and microinteractions to application dashboards\.
+- Optimize mobile layouts\.
+- Test accessibility and performance\.
+
+Fourth:
+
+- Integrate the completed frontend with the existing freight marketplace workflows\.
+- Verify that all buttons, forms, search, booking, messaging, tracking, and payment features remain functional\.
+
+### 20\. FINAL REQUIREMENT
+
+The finished product must combine the visual quality of a premium creative\-agency website with the reliability of a professional logistics marketplace\.
+
+Do not deliver a beautiful website with broken functionality\.
+
+Do not deliver a functional platform with generic or unfinished visual design\.
+
+The result must be visually distinctive, operationally useful, responsive, secure, and maintainable\.
+
+Treat the seven supplied screenshots as visual inspiration and implement an original design that achieves comparable sophistication\.
+
+Start by analyzing the screenshots and producing the homepage design architecture\. Then implement and test the design progressively\.
+
+The approved freight marketplace mockup supplied in this conversation is now the primary visual reference for the application\.
+
+Use the attached mockup as the design target for all 11 represented screens, including:
+
+Desktop landing page with cinematic truck hero
+
+Animated How It Works section
+
+Interactive services section
+
+Customer truck search and results
+
+Post Shipment form
+
+Booking details and progress timeline
+
+Live shipment tracking
+
+In\-app messaging
+
+Carrier dashboard and analytics
+
+Driver mobile interface
+
+Mobile landing page
+
+Reproduce the visual hierarchy, spacing, layout proportions, typography, orange\-and\-white color system, card styling, maps, navigation, and overall interface quality as closely as practical\.
+
+Use the earlier seven TikTok screenshots as additional references for animation, especially 3D movement, scroll\-linked storytelling, layered cards, typography reveals, and interactive transitions\. 
+
+The generated mockup is a visual design reference, not a source of real statistics, verified carriers, prices, ratings, or tracking data\. Replace all illustrative information with real application data or clearly labeled development fixtures\.
+
+The name “ShiftHaul” is temporary and must be replaced with the final approved brand name\. Centralize branding in configuration and design tokens so it can be updated consistently\.
+
+Do not simplify the design into a generic dashboard template\. Maintain the visual quality while ensuring all booking, payment, tracking, messaging, and administrative functionality works correctly\.
+
+Implement and validate the desktop and mobile experiences separately\. Use screenshot\-based visual regression testing to compare implemented screens against the approved mockup, allowing for differences caused by real content and responsive behavior\.
