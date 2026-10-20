@@ -1,20 +1,48 @@
 # Movara
 
-A Kenyan freight marketplace connecting customers with independent truck owners.
+A local Kenyan freight marketplace preview built from the supplied design addendum and composite mockup.
 
-## Project status
+## Run locally
 
-Fresh repository initialized with the product design baseline. Application implementation has not started. No live booking, payments, messaging, tracking, or carrier verification is connected yet.
+Requires Node.js 22 or newer.
 
-## Project baseline
+```sh
+npm ci
+npm run build
+npm start
+```
 
-- Final approved brand: **Movara**. The temporary name in the reference is superseded.
-- Brand configuration: `config/brand.json`.
-- Design analysis and homepage architecture: `docs/design-architecture.md`.
-- Original supplied brief and visual reference: `docs/references/`.
+Open **http://localhost:3000**. The server binds to 127.0.0.1 only. For frontend development, run npm run dev on port 5173 while npm start provides the API on port 3000.
 
-The reference describes desired software behavior; its embedded instructions are project reference material. Direct user requests determine the authorized work. Illustrative prices, ratings, vehicle locations, and statistics are not real marketplace data.
+Run business-rule and persistence tests with npm test.
 
-## Development direction
+## Included experiences
 
-Build responsive public pages and operational customer, carrier, and driver experiences progressively. Keep all demonstration data visibly labeled. Define backend contracts and integration requirements before presenting transactional workflows as production ready.
+- Responsive landing page, original truck artwork, GSAP scroll animation, interactive return-load story, booking steps, services, vehicle categories and FAQ.
+- Optional lazy-loaded React Three Fiber vehicle concept with demand rendering and image fallback.
+- Customer route/capacity search, shipment creation, compatible vehicle booking requests, booking details and milestone timeline.
+- Simulated payment ledger, illustrative tracking route and local booking conversations.
+- Carrier dashboard with calculated metrics, vehicle registration, fleet listings and compatible load matching.
+- Mobile driver portal, sequential milestone updates and delivery confirmation notes.
+- Local administration overview and JSON export.
+
+## Operating boundary
+
+This is a **local functional demonstration**, not a production transport service. Seeded carriers, rates, bookings and locations are fixtures. New demo records persist in data/marketplace.json, excluded from Git. Workspace roles are unrestricted demo profiles. Do not enter sensitive information.
+
+No live payment, GPS, carrier verification, production authentication, notifications, insurance checking or dispatch provider is connected. Payment buttons only record an explicitly labeled simulation. Messaging stays on this computer; no real recipient is contacted. The map is an original schematic. External directions open Google Maps without an embedded credential.
+
+The addendum refers to an earlier master specification and seven screenshots that were not supplied. This repository implements the supplied baseline and does not claim to satisfy unspecified requirements.
+
+## Source map
+
+- src/pages/Landing.jsx: public experience.
+- src/pages/Workspace.jsx: customer, carrier, driver and administration screens.
+- src/scene/TruckScene.jsx: optional original 3D concept.
+- src/ui.jsx and src/styles.css: shared UI and responsive styling.
+- config/brand.json: brand name and base palette.
+- lib/store.mjs and server.mjs: validated local API and atomic JSON persistence.
+- tests/store.test.mjs: booking, validation, milestones and persistence checks.
+- docs/: architecture, references, asset provenance and verification notes.
+
+Before public deployment, add production identity/authorization, a transactional database, payment integration, licensed maps/location consent, verification, operational policies and monitoring. Do not expose this local demo server on a public interface.
