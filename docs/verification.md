@@ -18,6 +18,7 @@ Verified in the in-app browser:
 - Desktop screenshots at 1440 × 1000 and mobile screenshots at 390 × 844.
 - Mobile overflow checks passed for search, shipment creation, booking, tracking, messaging, carrier dashboard, fleet and administration. Mobile homepage also passed.
 - New QA tab reported no JavaScript console errors across tested operational screens after the message fix.
+- The optional 3D scene loaded and produced a canvas; failed lazy downloads now resolve to a static artwork fallback. A stale chunk URL encountered while rebuilding was used to identify and close that failure path.
 
 `docs/qa/` contains the initial screenshot baselines for future visual regression comparisons. The supplied composite mockup was used for qualitative review of hierarchy, white/orange palette, truck presentation, card spacing and operational layout. These are not pixel-identical reproductions or an automated pixel-diff comparison against the composite.
 

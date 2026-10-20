@@ -4,7 +4,18 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Icon, Logo, Button, TruckImage, RouteMap } from "../ui";
 import { useApp, go } from "../main";
 gsap.registerPlugin(ScrollTrigger);
-const TruckScene = lazy(() => import("../scene/TruckScene"));
+const TruckScene = lazy(() =>
+  import("../scene/TruckScene").catch(() => ({
+    default: () => (
+      <div>
+        <TruckImage />
+        <p className="fine-print">
+          3D preview unavailable. Static artwork is shown instead.
+        </p>
+      </div>
+    ),
+  })),
+);
 const services = [
   [
     "Return loads",
